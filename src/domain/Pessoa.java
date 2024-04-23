@@ -9,6 +9,16 @@ public class Pessoa {
     private String endereco;
     private LocalDate nascimento;
     private BigDecimal salario;
+    ///////////////////////////////////////////////////////////////////
+    public Pessoa() { }
+    public Pessoa(String nome,String endereco,LocalDate nascimento,BigDecimal salario) {
+
+        this.nome = nome;
+        this.endereco = endereco;
+        this.nascimento = nascimento;
+        this.salario = salario;
+
+    }
 
     ///////////////////////////////////////////////////////////////////
     public String getNome() {
