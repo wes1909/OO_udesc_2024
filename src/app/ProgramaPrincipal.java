@@ -26,10 +26,12 @@ public class ProgramaPrincipal {
         System.out.println(fulano.nascimento);
         System.out.println(fulano.salario);*/
 
-        Pessoa fulano = new Pessoa("Fulano da Silva","Rua dos Programadores, 41",
+       Pessoa fulano = new Pessoa("Fulano da Silva","Rua dos Programadores, 41",
                 LocalDate.of(1990, 10, 13),new BigDecimal("2000.00"));
 
         fulano.apresentarse();
+
+        System.out.println(fulano);
     }
 
 }
