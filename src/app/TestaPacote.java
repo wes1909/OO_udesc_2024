@@ -11,10 +11,10 @@ public class TestaPacote  {
         Pessoa p = new Pessoa();
 
 
-        p.nome = "Zé da Silva";
+        p.setNome("Zé da Silva");
 
 
-        System.out.printf("Pessoa: "+p.nome );
+        System.out.printf("Pessoa: "+p.getNome());
 
     }
 }
